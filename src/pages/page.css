@@ -1,0 +1,62 @@
+.titlelist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:lightskyblue;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.gnerelist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:lightcoral;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.broadcasterlist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:lightslategray;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.listspace {
+    border: 1px solid white;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    justify-content: space-around;
+}
+
+.id {
+    width: 10%;
+    color: white;
+}
+
+.title{
+    white-space: nowrap;
+    width: 50%;
+    color: white;
+}
+
+.subject {
+    margin-left : 10px;
+}
+
+image {
+    width : 30%;
+    height : 20%;
+    margin-left : 10px;
+
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Title.css'
+import './page.css'
 import { useState , useEffect} from 'react';
 import axios from 'axios';
 import { toBeInTheDOM } from '@testing-library/jest-dom/dist/matchers';
@@ -24,7 +24,7 @@ const Title = () => {
             <tbody>
             {data.map(pro => {
                 title.push(
-                            <div className='list'>
+                            <div className='titlelist'>
                                 <div className='listspace'>
                                 <span className='id'>{pro.id}</span>
                                 <span className='title'>{pro.title}</span>

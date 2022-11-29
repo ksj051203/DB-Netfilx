@@ -1,5 +1,5 @@
 import Broadcaster from './pages/Broadcaster'
-import Gnere from './pages/Gnere'
+import Genre from './pages/Genre'
 import Title from './pages/Title'
 import Home from './pages/Home'
 import React from 'react';
@@ -18,7 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/title" element={<Title />} />
-            <Route path="/gnere" element={<Gnere />} />
+            <Route path="/gnere" element={<Genre />} />
             <Route path="/broadcaster" element={<Broadcaster />} />
           </Routes>
       </BrowserRouter>  

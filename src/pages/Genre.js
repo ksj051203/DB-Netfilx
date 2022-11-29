@@ -1,5 +1,5 @@
 import React from 'react';
-import './Title.css'
+import './page.css'
 import { useState , useEffect} from 'react';
 import axios from 'axios';
 import { toBeInTheDOM } from '@testing-library/jest-dom/dist/matchers';
@@ -24,10 +24,10 @@ const Gnere = () => {
             <tbody>
             {data.map(pro => {
                 gnere.push(
-                            <div className='list'>
+                            <div className='gnerelist'>
                                 <div className='listspace'>
                                 <span className='id'>{pro.id}</span>
-                                <span className='title'>{pro.title}</span>
+                                <span className='title'>{pro.genre}</span>
                                 </div>
                             </div>
                             
